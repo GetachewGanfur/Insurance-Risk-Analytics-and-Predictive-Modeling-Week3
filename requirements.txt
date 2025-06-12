@@ -1,0 +1,8 @@
+pandas
+numpy
+python-dateutil 
+matplotlib.pyplot  
+spacy
+nltk
+scikit-learn 
+python-dotenv 
