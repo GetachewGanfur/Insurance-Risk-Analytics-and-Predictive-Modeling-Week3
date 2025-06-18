@@ -8,11 +8,13 @@ This project performs exploratory data analysis and risk assessment on insurance
 .
 ├── data/                  # Data directory
 ├── notebooks/            # Jupyter notebooks
+ └── insurance_risk_analysis.ipynb          # Main script
 ├── src/                  # Source code
-│   ├── data_loader.py    # Data loading and preprocessing
-│   ├── eda_analyzer.py   # Exploratory data analysis
-│   ├── visualizer.py     # Data visualization
-│   └── main.py          # Main script
+│   ├──preprocessing
+       ├── preprocessor.py    # Data loading and preprocessing
+│   ├── Visualization   # Exploratory data analysis
+│       ├── visualizer.py     # Data visualization
+│   
 ├── tests/               # Test files
 ├── requirements.txt     # Project dependencies
 └── README.md           # Project documentation
