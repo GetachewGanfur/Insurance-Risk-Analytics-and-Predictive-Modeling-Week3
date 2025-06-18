@@ -33,11 +33,11 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Place your insurance data CSV file in the `data` directory as `insurance_data.csv`
+1. Place your insurance data file in the `data` directory as `MachineLearningRating_v3`
 
 2. Run the analysis:
 ```bash
-python src/main.py
+ 
 ```
 
 ## Features
