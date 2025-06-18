@@ -1,13 +1,12 @@
 '''
-A/B Testing Module for Insurance Claims Data
-This module provides an ABTester class for performing A/B testing on insurance claims data.
+Hypothesis Testing Module for Insurance Claims Data
 '''
 
 import pandas as pd
 import numpy as np
 import scipy.stats as stats
 
-class ABTester:
+class Testing:
     def __init__(self, file_path):
         self.file_path = file_path
         pd.set_option('display.max_columns', None)
@@ -35,7 +34,7 @@ class ABTester:
         zipcode_counts.columns = ['PostalCode', 'RecordCount']
         return zipcode_counts.sort_values(by='RecordCount', ascending=False).head(5)
 
-    def ab_test_province(self, prov_a, prov_b):
+    def Testing_province(self, prov_a, prov_b):
         group_a = self.df[self.df['Province'] == prov_a]
         group_b = self.df[self.df['Province'] == prov_b]
 
@@ -58,7 +57,7 @@ class ABTester:
             'Hypothesis_Rejected': p_sev < 0.05
         }
 
-    def ab_test_zipcode_risk(self, zip_a, zip_b):
+    def Testing_zipcode_risk(self, zip_a, zip_b):
         group_a = self.df[self.df['PostalCode'] == zip_a]
         group_b = self.df[self.df['PostalCode'] == zip_b]
 
@@ -79,7 +78,7 @@ class ABTester:
             'Hypothesis_Rejected': p_sev < 0.05
         }
 
-    def ab_test_zipcode_margin(self, zip_a, zip_b):
+    def Testing_zipcode_margin(self, zip_a, zip_b):
         group_a = self.df[self.df['PostalCode'] == zip_a]
         group_b = self.df[self.df['PostalCode'] == zip_b]
 
@@ -94,7 +93,7 @@ class ABTester:
             'Hypothesis_Rejected': p_margin < 0.05
         }
 
-    def ab_test_gender(self):
+    def Testing_gender(self):
         group_m = self.df[self.df['Gender'] == 'Male']
         group_f = self.df[self.df['Gender'] == 'Female']
 
