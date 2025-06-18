@@ -2,7 +2,7 @@
 Visualizer Module
 This module provides a class for visualizing insurance data.
 
-'''
+''' 
 
 import pandas as pd
 import matplotlib.pyplot as plt
